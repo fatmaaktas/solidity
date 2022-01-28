@@ -1,0 +1,583 @@
+{
+    "contractName": "HelloWorld",
+    "abi": [
+        {
+            "constant": true,
+            "inputs": [
+                {
+                    "name": "lang",
+                    "type": "uint8"
+                }
+            ],
+            "name": "sayHello",
+            "outputs": [
+                {
+                    "name": "",
+                    "type": "string"
+                }
+            ],
+            "payable": false,
+            "stateMutability": "view",
+            "type": "function"
+        },
+        {
+            "inputs": [],
+            "payable": false,
+            "stateMutability": "nonpayable",
+            "type": "constructor"
+        }
+    ],
+    "metadata": "{\"compiler\":{\"version\":\"0.4.20+commit.3155dd80\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[{\"name\":\"lang\",\"type\":\"uint8\"}],\"name\":\"sayHello\",\"outputs\":[{\"name\":\"\",\"type\":\"string\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"c:/Users/fatma/OneDrive/Masaüstü/Projects/Solidity Deneme/HelloWorld.sol\":\"HelloWorld\"},\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"c:/Users/fatma/OneDrive/Masaüstü/Projects/Solidity Deneme/HelloWorld.sol\":{\"keccak256\":\"0x4f9d50c47575c82a5d9dca2dac107f7ef44a94cf3c6c822230c11bbe54805354\",\"urls\":[\"bzzr://405dcfa08f604c1797a69648e33db671289a68ce5e4e50df5d8804e5f649b245\"]}},\"version\":1}",
+    "bytecode": "606060405260408051908101604052600b81527f48656c6c6f20576f726c640000000000000000000000000000000000000000006020820152600090805161004b9291602001906100ec565b5060408051908101604052601081527f426f6e6a6f7572204c65204d6f6e646500000000000000000000000000000000602082015260019080516100939291602001906100ec565b5060408051908101604052600a81527f48616c6c6f2057656c7400000000000000000000000000000000000000000000602082015260029080516100db9291602001906100ec565b5034156100e757600080fd5b610187565b828054600181600116156101000203166002900490600052602060002090601f016020900481019282601f1061012d57805160ff191683800117855561015a565b8280016001018555821561015a579182015b8281111561015a57825182559160200191906001019061013f565b5061016692915061016a565b5090565b61018491905b808211156101665760008155600101610170565b90565b6102c0806101966000396000f3006060604052600436106100405763ffffffff7c010000000000000000000000000000000000000000000000000000000060003504166313ee648c8114610045575b600080fd5b341561005057600080fd5b61005e60ff600435166100d5565b60405160208082528190810183818151815260200191508051906020019080838360005b8381101561009a578082015183820152602001610082565b50505050905090810190601f1680156100c75780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b6100dd610282565b60008260028111156100eb57fe5b14156101935760008054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156101875780601f1061015c57610100808354040283529160200191610187565b820191906000526020600020905b81548152906001019060200180831161016a57829003601f168201915b5050505050905061027d565b60018260028111156101a157fe5b14156102125760018054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156101875780601f1061015c57610100808354040283529160200191610187565b60028054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156101875780601f1061015c57610100808354040283529160200191610187565b919050565b602060405190810160405260008152905600a165627a7a72305820fe57dfddcfda4fed384d450e32dc1cbd9ddc7a6df98939561af934df81ef29570029",
+    "deployedBytecode": "6060604052600436106100405763ffffffff7c010000000000000000000000000000000000000000000000000000000060003504166313ee648c8114610045575b600080fd5b341561005057600080fd5b61005e60ff600435166100d5565b60405160208082528190810183818151815260200191508051906020019080838360005b8381101561009a578082015183820152602001610082565b50505050905090810190601f1680156100c75780820380516001836020036101000a031916815260200191505b509250505060405180910390f35b6100dd610282565b60008260028111156100eb57fe5b14156101935760008054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156101875780601f1061015c57610100808354040283529160200191610187565b820191906000526020600020905b81548152906001019060200180831161016a57829003601f168201915b5050505050905061027d565b60018260028111156101a157fe5b14156102125760018054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156101875780601f1061015c57610100808354040283529160200191610187565b60028054600181600116156101000203166002900480601f0160208091040260200160405190810160405280929190818152602001828054600181600116156101000203166002900480156101875780601f1061015c57610100808354040283529160200191610187565b919050565b602060405190810160405260008152905600a165627a7a72305820fe57dfddcfda4fed384d450e32dc1cbd9ddc7a6df98939561af934df81ef29570029",
+    "sourceMap": "28:500:0:-;;;91:28;;;;;;;;;;;;;;;;-1:-1:-1;;91:28:0;;;;;;;;;:::i;:::-;;126:32;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;165:26;;;;;;;;;;;;;;;;;;;;;;;;;;;:::i;:::-;;200:37;;;;;;;;28:500;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;-1:-1:-1;28:500:0;;;-1:-1:-1;28:500:0;:::i;:::-;;;:::o;:::-;;;;;;;;;;;;;;;;;;;;:::o;:::-;;;;;;;",
+    "deployedSourceMap": "28:500:0:-;;;;;;;;;;;;;;;;;;;;;;;245:280;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;23:1:-1;8:100;33:3;30:1;27:10;8:100;;;99:1;94:3;90:11;84:18;71:11;;;64:39;52:2;45:10;8:100;;;12:14;245:280:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;298:6;;:::i;:::-;328:11;320:4;:19;;;;;;;;;316:202;;;363:7;356:14;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;316:202;410:11;402:4;:19;;;;;;;;;398:120;;;445:6;438:13;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;398:120;500:6;493:13;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;398:120;245:280;;;:::o;28:500::-;;;;;;;;;;;;;:::o",
+    "sourcePath": "c:/Users/fatma/OneDrive/Masaüstü/Projects/Solidity Deneme/HelloWorld.sol",
+    "compiler": {
+        "name": "solc",
+        "version": "0.4.20+commit.3155dd80"
+    },
+    "ast": {
+        "absolutePath": "c:/Users/fatma/OneDrive/Masaüstü/Projects/Solidity Deneme/HelloWorld.sol",
+        "exportedSymbols": {
+            "HelloWorld": [
+                46
+            ]
+        },
+        "id": 47,
+        "nodeType": "SourceUnit",
+        "nodes": [
+            {
+                "id": 1,
+                "literals": [
+                    "solidity",
+                    "^",
+                    "0.4",
+                    ".18"
+                ],
+                "nodeType": "PragmaDirective",
+                "src": "0:24:0"
+            },
+            {
+                "baseContracts": [],
+                "contractDependencies": [],
+                "contractKind": "contract",
+                "documentation": null,
+                "fullyImplemented": true,
+                "id": 46,
+                "linearizedBaseContracts": [
+                    46
+                ],
+                "name": "HelloWorld",
+                "nodeType": "ContractDefinition",
+                "nodes": [
+                    {
+                        "canonicalName": "HelloWorld.LANGUAGE",
+                        "id": 5,
+                        "members": [
+                            {
+                                "id": 2,
+                                "name": "EN",
+                                "nodeType": "EnumValue",
+                                "src": "72:2:0"
+                            },
+                            {
+                                "id": 3,
+                                "name": "FR",
+                                "nodeType": "EnumValue",
+                                "src": "76:2:0"
+                            },
+                            {
+                                "id": 4,
+                                "name": "DE",
+                                "nodeType": "EnumValue",
+                                "src": "80:2:0"
+                            }
+                        ],
+                        "name": "LANGUAGE",
+                        "nodeType": "EnumDefinition",
+                        "src": "57:26:0"
+                    },
+                    {
+                        "constant": false,
+                        "id": 8,
+                        "name": "english",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 46,
+                        "src": "91:28:0",
+                        "stateVariable": true,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                            "typeIdentifier": "t_string_storage",
+                            "typeString": "string storage ref"
+                        },
+                        "typeName": {
+                            "id": 6,
+                            "name": "string",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "91:6:0",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_string_storage_ptr",
+                                "typeString": "string storage pointer"
+                            }
+                        },
+                        "value": {
+                            "argumentTypes": null,
+                            "hexValue": "48656c6c6f20576f726c64",
+                            "id": 7,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": true,
+                            "kind": "string",
+                            "lValueRequested": false,
+                            "nodeType": "Literal",
+                            "src": "106:13:0",
+                            "subdenomination": null,
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_stringliteral_592fa743889fc7f92ac2a37bb1f5ba1daf2a5c84741ca0e0061d243a2e6707ba",
+                                "typeString": "literal_string \"Hello World\""
+                            },
+                            "value": "Hello World"
+                        },
+                        "visibility": "internal"
+                    },
+                    {
+                        "constant": false,
+                        "id": 11,
+                        "name": "french",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 46,
+                        "src": "126:32:0",
+                        "stateVariable": true,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                            "typeIdentifier": "t_string_storage",
+                            "typeString": "string storage ref"
+                        },
+                        "typeName": {
+                            "id": 9,
+                            "name": "string",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "126:6:0",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_string_storage_ptr",
+                                "typeString": "string storage pointer"
+                            }
+                        },
+                        "value": {
+                            "argumentTypes": null,
+                            "hexValue": "426f6e6a6f7572204c65204d6f6e6465",
+                            "id": 10,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": true,
+                            "kind": "string",
+                            "lValueRequested": false,
+                            "nodeType": "Literal",
+                            "src": "140:18:0",
+                            "subdenomination": null,
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_stringliteral_daa46f7a5d14d66204f78c7ca9788dd62a012d3ef40fac035b428153584ec249",
+                                "typeString": "literal_string \"Bonjour Le Monde\""
+                            },
+                            "value": "Bonjour Le Monde"
+                        },
+                        "visibility": "internal"
+                    },
+                    {
+                        "constant": false,
+                        "id": 14,
+                        "name": "german",
+                        "nodeType": "VariableDeclaration",
+                        "scope": 46,
+                        "src": "165:26:0",
+                        "stateVariable": true,
+                        "storageLocation": "default",
+                        "typeDescriptions": {
+                            "typeIdentifier": "t_string_storage",
+                            "typeString": "string storage ref"
+                        },
+                        "typeName": {
+                            "id": 12,
+                            "name": "string",
+                            "nodeType": "ElementaryTypeName",
+                            "src": "165:6:0",
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_string_storage_ptr",
+                                "typeString": "string storage pointer"
+                            }
+                        },
+                        "value": {
+                            "argumentTypes": null,
+                            "hexValue": "48616c6c6f2057656c74",
+                            "id": 13,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": true,
+                            "kind": "string",
+                            "lValueRequested": false,
+                            "nodeType": "Literal",
+                            "src": "179:12:0",
+                            "subdenomination": null,
+                            "typeDescriptions": {
+                                "typeIdentifier": "t_stringliteral_8c0f56949121b5c8d9e2496db9060e671137cecf0f4b178d351f15599ebee78d",
+                                "typeString": "literal_string \"Hallo Welt\""
+                            },
+                            "value": "Hallo Welt"
+                        },
+                        "visibility": "internal"
+                    },
+                    {
+                        "body": {
+                            "id": 17,
+                            "nodeType": "Block",
+                            "src": "229:8:0",
+                            "statements": []
+                        },
+                        "id": 18,
+                        "implemented": true,
+                        "isConstructor": true,
+                        "isDeclaredConst": false,
+                        "modifiers": [],
+                        "name": "HelloWorld",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 15,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "219:2:0"
+                        },
+                        "payable": false,
+                        "returnParameters": {
+                            "id": 16,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "229:0:0"
+                        },
+                        "scope": 46,
+                        "src": "200:37:0",
+                        "stateMutability": "nonpayable",
+                        "superFunction": null,
+                        "visibility": "public"
+                    },
+                    {
+                        "body": {
+                            "id": 44,
+                            "nodeType": "Block",
+                            "src": "305:220:0",
+                            "statements": [
+                                {
+                                    "condition": {
+                                        "argumentTypes": null,
+                                        "commonType": {
+                                            "typeIdentifier": "t_enum$_LANGUAGE_$5",
+                                            "typeString": "enum HelloWorld.LANGUAGE"
+                                        },
+                                        "id": 28,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": false,
+                                        "lValueRequested": false,
+                                        "leftExpression": {
+                                            "argumentTypes": null,
+                                            "id": 25,
+                                            "name": "lang",
+                                            "nodeType": "Identifier",
+                                            "overloadedDeclarations": [],
+                                            "referencedDeclaration": 20,
+                                            "src": "320:4:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_enum$_LANGUAGE_$5",
+                                                "typeString": "enum HelloWorld.LANGUAGE"
+                                            }
+                                        },
+                                        "nodeType": "BinaryOperation",
+                                        "operator": "==",
+                                        "rightExpression": {
+                                            "argumentTypes": null,
+                                            "expression": {
+                                                "argumentTypes": null,
+                                                "id": 26,
+                                                "name": "LANGUAGE",
+                                                "nodeType": "Identifier",
+                                                "overloadedDeclarations": [],
+                                                "referencedDeclaration": 5,
+                                                "src": "328:8:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_type$_t_enum$_LANGUAGE_$5_$",
+                                                    "typeString": "type(enum HelloWorld.LANGUAGE)"
+                                                }
+                                            },
+                                            "id": 27,
+                                            "isConstant": false,
+                                            "isLValue": false,
+                                            "isPure": true,
+                                            "lValueRequested": false,
+                                            "memberName": "EN",
+                                            "nodeType": "MemberAccess",
+                                            "referencedDeclaration": null,
+                                            "src": "328:11:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_enum$_LANGUAGE_$5",
+                                                "typeString": "enum HelloWorld.LANGUAGE"
+                                            }
+                                        },
+                                        "src": "320:19:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_bool",
+                                            "typeString": "bool"
+                                        }
+                                    },
+                                    "falseBody": {
+                                        "condition": {
+                                            "argumentTypes": null,
+                                            "commonType": {
+                                                "typeIdentifier": "t_enum$_LANGUAGE_$5",
+                                                "typeString": "enum HelloWorld.LANGUAGE"
+                                            },
+                                            "id": 35,
+                                            "isConstant": false,
+                                            "isLValue": false,
+                                            "isPure": false,
+                                            "lValueRequested": false,
+                                            "leftExpression": {
+                                                "argumentTypes": null,
+                                                "id": 32,
+                                                "name": "lang",
+                                                "nodeType": "Identifier",
+                                                "overloadedDeclarations": [],
+                                                "referencedDeclaration": 20,
+                                                "src": "402:4:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_enum$_LANGUAGE_$5",
+                                                    "typeString": "enum HelloWorld.LANGUAGE"
+                                                }
+                                            },
+                                            "nodeType": "BinaryOperation",
+                                            "operator": "==",
+                                            "rightExpression": {
+                                                "argumentTypes": null,
+                                                "expression": {
+                                                    "argumentTypes": null,
+                                                    "id": 33,
+                                                    "name": "LANGUAGE",
+                                                    "nodeType": "Identifier",
+                                                    "overloadedDeclarations": [],
+                                                    "referencedDeclaration": 5,
+                                                    "src": "410:8:0",
+                                                    "typeDescriptions": {
+                                                        "typeIdentifier": "t_type$_t_enum$_LANGUAGE_$5_$",
+                                                        "typeString": "type(enum HelloWorld.LANGUAGE)"
+                                                    }
+                                                },
+                                                "id": 34,
+                                                "isConstant": false,
+                                                "isLValue": false,
+                                                "isPure": true,
+                                                "lValueRequested": false,
+                                                "memberName": "FR",
+                                                "nodeType": "MemberAccess",
+                                                "referencedDeclaration": null,
+                                                "src": "410:11:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_enum$_LANGUAGE_$5",
+                                                    "typeString": "enum HelloWorld.LANGUAGE"
+                                                }
+                                            },
+                                            "src": "402:19:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_bool",
+                                                "typeString": "bool"
+                                            }
+                                        },
+                                        "falseBody": {
+                                            "id": 41,
+                                            "nodeType": "Block",
+                                            "src": "478:40:0",
+                                            "statements": [
+                                                {
+                                                    "expression": {
+                                                        "argumentTypes": null,
+                                                        "id": 39,
+                                                        "name": "german",
+                                                        "nodeType": "Identifier",
+                                                        "overloadedDeclarations": [],
+                                                        "referencedDeclaration": 14,
+                                                        "src": "500:6:0",
+                                                        "typeDescriptions": {
+                                                            "typeIdentifier": "t_string_storage",
+                                                            "typeString": "string storage ref"
+                                                        }
+                                                    },
+                                                    "functionReturnParameters": 24,
+                                                    "id": 40,
+                                                    "nodeType": "Return",
+                                                    "src": "493:13:0"
+                                                }
+                                            ]
+                                        },
+                                        "id": 42,
+                                        "nodeType": "IfStatement",
+                                        "src": "398:120:0",
+                                        "trueBody": {
+                                            "id": 38,
+                                            "nodeType": "Block",
+                                            "src": "423:40:0",
+                                            "statements": [
+                                                {
+                                                    "expression": {
+                                                        "argumentTypes": null,
+                                                        "id": 36,
+                                                        "name": "french",
+                                                        "nodeType": "Identifier",
+                                                        "overloadedDeclarations": [],
+                                                        "referencedDeclaration": 11,
+                                                        "src": "445:6:0",
+                                                        "typeDescriptions": {
+                                                            "typeIdentifier": "t_string_storage",
+                                                            "typeString": "string storage ref"
+                                                        }
+                                                    },
+                                                    "functionReturnParameters": 24,
+                                                    "id": 37,
+                                                    "nodeType": "Return",
+                                                    "src": "438:13:0"
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    "id": 43,
+                                    "nodeType": "IfStatement",
+                                    "src": "316:202:0",
+                                    "trueBody": {
+                                        "id": 31,
+                                        "nodeType": "Block",
+                                        "src": "341:41:0",
+                                        "statements": [
+                                            {
+                                                "expression": {
+                                                    "argumentTypes": null,
+                                                    "id": 29,
+                                                    "name": "english",
+                                                    "nodeType": "Identifier",
+                                                    "overloadedDeclarations": [],
+                                                    "referencedDeclaration": 8,
+                                                    "src": "363:7:0",
+                                                    "typeDescriptions": {
+                                                        "typeIdentifier": "t_string_storage",
+                                                        "typeString": "string storage ref"
+                                                    }
+                                                },
+                                                "functionReturnParameters": 24,
+                                                "id": 30,
+                                                "nodeType": "Return",
+                                                "src": "356:14:0"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        },
+                        "id": 45,
+                        "implemented": true,
+                        "isConstructor": false,
+                        "isDeclaredConst": true,
+                        "modifiers": [],
+                        "name": "sayHello",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 21,
+                            "nodeType": "ParameterList",
+                            "parameters": [
+                                {
+                                    "constant": false,
+                                    "id": 20,
+                                    "name": "lang",
+                                    "nodeType": "VariableDeclaration",
+                                    "scope": 45,
+                                    "src": "263:13:0",
+                                    "stateVariable": false,
+                                    "storageLocation": "default",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_enum$_LANGUAGE_$5",
+                                        "typeString": "enum HelloWorld.LANGUAGE"
+                                    },
+                                    "typeName": {
+                                        "contractScope": null,
+                                        "id": 19,
+                                        "name": "LANGUAGE",
+                                        "nodeType": "UserDefinedTypeName",
+                                        "referencedDeclaration": 5,
+                                        "src": "263:8:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_enum$_LANGUAGE_$5",
+                                            "typeString": "enum HelloWorld.LANGUAGE"
+                                        }
+                                    },
+                                    "value": null,
+                                    "visibility": "internal"
+                                }
+                            ],
+                            "src": "262:15:0"
+                        },
+                        "payable": false,
+                        "returnParameters": {
+                            "id": 24,
+                            "nodeType": "ParameterList",
+                            "parameters": [
+                                {
+                                    "constant": false,
+                                    "id": 23,
+                                    "name": "",
+                                    "nodeType": "VariableDeclaration",
+                                    "scope": 45,
+                                    "src": "298:6:0",
+                                    "stateVariable": false,
+                                    "storageLocation": "default",
+                                    "typeDescriptions": {
+                                        "typeIdentifier": "t_string_memory_ptr",
+                                        "typeString": "string memory"
+                                    },
+                                    "typeName": {
+                                        "id": 22,
+                                        "name": "string",
+                                        "nodeType": "ElementaryTypeName",
+                                        "src": "298:6:0",
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_string_storage_ptr",
+                                            "typeString": "string storage pointer"
+                                        }
+                                    },
+                                    "value": null,
+                                    "visibility": "internal"
+                                }
+                            ],
+                            "src": "297:8:0"
+                        },
+                        "scope": 46,
+                        "src": "245:280:0",
+                        "stateMutability": "view",
+                        "superFunction": null,
+                        "visibility": "public"
+                    }
+                ],
+                "scope": 47,
+                "src": "28:500:0"
+            }
+        ],
+        "src": "0:532:0"
+    },
+    "functionHashes": {
+        "sayHello(uint8)": "13ee648c"
+    },
+    "gasEstimates": {
+        "creation": {
+            "codeDepositCost": "140800",
+            "executionCost": "infinite",
+            "totalCost": "infinite"
+        },
+        "external": {
+            "sayHello(uint8)": "infinite"
+        }
+    }
+}
